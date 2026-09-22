@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+outputs/*
+!outputs/mcq_item_audit/
+outputs/mcq_item_audit/*
+!outputs/mcq_item_audit/accepted_cases.jsonl
+!outputs/freeform_item_audit/
+outputs/freeform_item_audit/*
+!outputs/freeform_item_audit/accepted_cases.jsonl
+results/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
